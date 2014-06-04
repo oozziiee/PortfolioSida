@@ -1,0 +1,100 @@
+* {
+	font-family: "Eras Medium ITC";
+	color: black;	
+}
+body {
+	background-image: url(bilder/background.png);
+	color: #FFF;
+}
+
+nav > ul {
+	list-style: none;
+	border-radius: 12px;
+	list-style: none;
+	width: 10%;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+li {
+	margin: 3%;
+	width: 70%;
+	padding: 9px;
+	background: rgba(255, 255, 255, 0.35);
+	border: 1px solid #FF6700;
+	text-align: center;
+}
+header {
+	display: inline-block;
+	width: 200px;
+}
+img {
+	border: 1px solid #FF6700;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.35);
+	width: 150px;
+	height: auto;
+}
+.menu {
+	border-radius: 7px;
+	display: inline-block;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.menu:hover {
+	-webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+	background: rgba(0, 0, 0, 0.35);
+}
+
+#menu_news {
+	display:box;
+	box-pack:center;
+	box-align:center;
+	vertical-align: top;
+}
+
+#newsfeed, #aboutme, #projects, #contact{
+	border: 1px #FF6700 solid;
+	border-radius: 15px;
+	width: 50%;
+	height: auto;
+	margin-left: 200px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.35);
+	list-style: none;
+	display: inline-block;
+	float:left;
+}
+#aboutme > ul, #contact > ul, #projects > ul{
+	list-style: none;
+	border-radius: 15px;
+	margin-left: auto ;
+	margin-right: auto;
+	width: 100%;
+}
+#aboutme > ul > li,  #contact > ul > li, #projects > ul > li{
+ 	border: 1px solid #FF6700;
+	border-radius: 15px;
+	margin-left: 7%;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+
